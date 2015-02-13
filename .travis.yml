@@ -1,5 +1,5 @@
 language: objective-c
 script:
-- xctool -workspace VenmoColors.xcworkspace iphonesimulator ONLY_ACTIVE_ARCH=NO 
+- xctool -project VenmoColors.xcodeproj -scheme VenmoColors -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 before_install:
 - brew uninstall xctool; brew install xctool --HEAD;
