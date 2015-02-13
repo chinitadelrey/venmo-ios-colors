@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description   = <<-DESC
                    UIColors for the Venmo app.
                    DESC
-  s.homepage     = 'https://www.github.com/venmo/VenmoColors'
+  s.homepage     = 'https://www.github.com/venmo/venmo-ios-colors'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Venmo' => 'ios@venmo.com'}
-  s.source       = { :git => 'https://github.com/venmo/VenmoColors.git', :tag => "v#{s.version}"}
+  s.source       = { :git => 'https://github.com/venmo/venmo-ios-colors.git', :tag => "v#{s.version}"}
   s.source_files = 'VenmoColors/Colors/*.{h,m}'
   s.platform     = :ios, '6.0'
   s.requires_arc = true
