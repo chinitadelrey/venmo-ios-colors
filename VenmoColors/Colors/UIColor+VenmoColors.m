@@ -1,6 +1,6 @@
-#import "UIColor+Venmo.h"
+#import "UIColor+VenmoColors.h"
 
-@implementation UIColor (Venmo)
+@implementation UIColor (VenmoColors)
 
 #pragma mark - Grey colors
 

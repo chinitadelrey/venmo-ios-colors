@@ -10,7 +10,7 @@
 		61C8F36C1A8D946D003D60EE /* VENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F3691A8D946D003D60EE /* VENAppDelegate.m */; };
 		61C8F36E1A8D946D003D60EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F36B1A8D946D003D60EE /* main.m */; };
 		61C8F3721A8D948C003D60EE /* VENColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F3711A8D948C003D60EE /* VENColorsTableViewController.m */; };
-		61C8F3761A8D97EF003D60EE /* UIColor+Venmo.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F3751A8D97EF003D60EE /* UIColor+Venmo.m */; };
+		61C8F3761A8D97EF003D60EE /* UIColor+VenmoColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F3751A8D97EF003D60EE /* UIColor+VenmoColors.m */; };
 		61C8F37E1A8D9AA1003D60EE /* VENColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8F37D1A8D9AA1003D60EE /* VENColorTableViewCell.m */; };
 		61C8F3801A8D9AB2003D60EE /* VENColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61C8F37F1A8D9AB2003D60EE /* VENColorTableViewCell.xib */; };
 /* End PBXBuildFile section */
@@ -23,8 +23,8 @@
 		61C8F36B1A8D946D003D60EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
 		61C8F3701A8D948C003D60EE /* VENColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENColorsTableViewController.h; path = Controllers/VENColorsTableViewController.h; sourceTree = "<group>"; };
 		61C8F3711A8D948C003D60EE /* VENColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENColorsTableViewController.m; path = Controllers/VENColorsTableViewController.m; sourceTree = "<group>"; };
-		61C8F3741A8D97EF003D60EE /* UIColor+Venmo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Venmo.h"; path = "Colors/UIColor+Venmo.h"; sourceTree = "<group>"; };
-		61C8F3751A8D97EF003D60EE /* UIColor+Venmo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Venmo.m"; path = "Colors/UIColor+Venmo.m"; sourceTree = "<group>"; };
+		61C8F3741A8D97EF003D60EE /* UIColor+VenmoColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+VenmoColors.h"; path = "Colors/UIColor+VenmoColors.h"; sourceTree = "<group>"; };
+		61C8F3751A8D97EF003D60EE /* UIColor+VenmoColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+VenmoColors.m"; path = "Colors/UIColor+VenmoColors.m"; sourceTree = "<group>"; };
 		61C8F37C1A8D9AA1003D60EE /* VENColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENColorTableViewCell.h; path = Views/VENColorTableViewCell.h; sourceTree = "<group>"; };
 		61C8F37D1A8D9AA1003D60EE /* VENColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENColorTableViewCell.m; path = Views/VENColorTableViewCell.m; sourceTree = "<group>"; };
 		61C8F37F1A8D9AB2003D60EE /* VENColorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VENColorTableViewCell.xib; path = Views/VENColorTableViewCell.xib; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 		61C8F3731A8D97C0003D60EE /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				61C8F3741A8D97EF003D60EE /* UIColor+Venmo.h */,
-				61C8F3751A8D97EF003D60EE /* UIColor+Venmo.m */,
+				61C8F3741A8D97EF003D60EE /* UIColor+VenmoColors.h */,
+				61C8F3751A8D97EF003D60EE /* UIColor+VenmoColors.m */,
 			);
 			name = Colors;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 				61C8F3721A8D948C003D60EE /* VENColorsTableViewController.m in Sources */,
 				61C8F36E1A8D946D003D60EE /* main.m in Sources */,
 				61C8F36C1A8D946D003D60EE /* VENAppDelegate.m in Sources */,
-				61C8F3761A8D97EF003D60EE /* UIColor+Venmo.m in Sources */,
+				61C8F3761A8D97EF003D60EE /* UIColor+VenmoColors.m in Sources */,
 				61C8F37E1A8D9AA1003D60EE /* VENColorTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

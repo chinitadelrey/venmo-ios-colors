@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface UIColor (Venmo)
+@interface UIColor (VenmoColors)
 
 #pragma mark - Grey colors
 
