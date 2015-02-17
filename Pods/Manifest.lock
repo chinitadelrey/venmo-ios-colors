@@ -1,0 +1,17 @@
+PODS:
+  - Colours (5.6.1)
+  - venmo-ios-colors (0.2.0):
+    - Colours (~> 5.0)
+
+DEPENDENCIES:
+  - venmo-ios-colors (from `.`)
+
+EXTERNAL SOURCES:
+  venmo-ios-colors:
+    :path: .
+
+SPEC CHECKSUMS:
+  Colours: ecbcbb168f7e6190b76b34df1b477c103cb638eb
+  venmo-ios-colors: 388cd911ab0cb3907f5fc101c0ee7b860bdbe159
+
+COCOAPODS: 0.35.0
