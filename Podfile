@@ -1,3 +1,3 @@
-target 'VenmoColors' do
+target 'VenmoColorsSample' do
   pod "venmo-ios-colors", :path => "."
 end

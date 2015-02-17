@@ -1,17 +1,13 @@
 #import "VENAppDelegate.h"
 #import "VENColorsTableViewController.h"
 
-@interface VENAppDelegate ()
-
-@end
-
 @implementation VENAppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     VENColorsTableViewController *colorsViewController = [[VENColorsTableViewController alloc] init];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:colorsViewController];
-    self.window.frame = [UIScreen mainScreen].bounds;
     [self.window makeKeyAndVisible];
     return YES;
 }

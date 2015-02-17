@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Venmo' => 'ios@venmo.com'}
   s.source       = { :git => 'https://github.com/venmo/venmo-ios-colors.git', :tag => "v#{s.version}"}
-  s.source_files = 'UIColor+VenmoColors.{h,m}'
+  s.source_files = 'Colors/*.{h,m}'
   s.platform     = :ios, '6.0'
   s.requires_arc = true
   s.dependency 'Colours', '~> 5.0'
