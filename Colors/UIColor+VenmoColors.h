@@ -13,7 +13,6 @@
 + (UIColor *)ven_dividerGreyColor;
 + (UIColor *)ven_composeGreyBackgroundColor;
 + (UIColor *)ven_placeholderTextGreyColor;
-+ (UIColor *)ven_greyTexture;
 
 
 #pragma mark - Blue colors
