@@ -1,12 +1,17 @@
 PODS:
   - Colours (5.6.1)
   - Expecta (0.3.2)
+  - Expecta+Snapshots (1.3.1):
+    - Expecta
+    - FBSnapshotTestCase
+  - FBSnapshotTestCase (1.5)
   - Specta (0.3.2)
   - venmo-ios-colors (0.2.0):
     - Colours (~> 5.0)
 
 DEPENDENCIES:
   - Expecta (~> 0.3)
+  - Expecta+Snapshots (~> 1.3)
   - Specta (~> 0.3)
   - venmo-ios-colors (from `.`)
 
@@ -17,6 +22,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Colours: ecbcbb168f7e6190b76b34df1b477c103cb638eb
   Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
+  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
   Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
   venmo-ios-colors: 2dd46cd2e24f3e8ef4b296697d4bfe600eaa3c3f
 
