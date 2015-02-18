@@ -76,15 +76,6 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0222FC61A946C69006C4033"
-            BuildableName = "VenmoColorsSampleTests.xctest"
-            BlueprintName = "VenmoColorsSampleTests"
-            ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

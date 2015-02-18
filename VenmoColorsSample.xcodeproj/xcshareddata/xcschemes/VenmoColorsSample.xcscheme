@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6120775B1A93ECC500139BBF"
+               BlueprintIdentifier = "E0222FC61A946C69006C4033"
                BuildableName = "VenmoColorsSampleTests.xctest"
                BlueprintName = "VenmoColorsSampleTests"
                ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
@@ -60,7 +60,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6120775B1A93ECC500139BBF"
+               BlueprintIdentifier = "E0222FC61A946C69006C4033"
                BuildableName = "VenmoColorsSampleTests.xctest"
                BlueprintName = "VenmoColorsSampleTests"
                ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
