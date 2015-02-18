@@ -3,7 +3,7 @@
 #import <Specta/Specta.h>
 #import <Expecta/Expecta.h>
 
-SpecBegin(UIImage_VenmoColors)
+SpecBegin(UIColor_VenmoColors)
 
 describe(@"ven_venmoBlueColor", ^{
     it(@"should really be Venmo Blue™", ^{
