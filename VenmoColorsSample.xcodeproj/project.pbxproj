@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				612077451A93ECC500139BBF /* VenmoColorsSample */,
-				E0222FC81A946C69006C4033 /* VenmoColorsTests */,
+				E0222FC81A946C69006C4033 /* VenmoColorsSampleTests */,
 				612077441A93ECC500139BBF /* Products */,
 				7EEEFB986B7B3A833DCD9A85 /* Pods */,
 				229642138645F4767BD7770C /* Frameworks */,
@@ -152,12 +152,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E0222FC81A946C69006C4033 /* VenmoColorsTests */ = {
+		E0222FC81A946C69006C4033 /* VenmoColorsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */,
 				E0222FC91A946C69006C4033 /* Supporting Files */,
 			);
+			name = VenmoColorsSampleTests;
 			path = VenmoColorsTests;
 			sourceTree = "<group>";
 		};
@@ -191,9 +192,9 @@
 			productReference = 612077431A93ECC500139BBF /* VenmoColorsSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0222FC61A946C69006C4033 /* VenmoColorsTests */ = {
+		E0222FC61A946C69006C4033 /* VenmoColorsSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsTests" */;
+			buildConfigurationList = E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsSampleTests" */;
 			buildPhases = (
 				C97C675C7C21C49AE4816034 /* Check Pods Manifest.lock */,
 				E0222FC31A946C69006C4033 /* Sources */,
@@ -206,7 +207,7 @@
 			dependencies = (
 				E0222FCE1A946C69006C4033 /* PBXTargetDependency */,
 			);
-			name = VenmoColorsTests;
+			name = VenmoColorsSampleTests;
 			productName = VenmoColorsTests;
 			productReference = E0222FC71A946C69006C4033 /* VenmoColorsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -243,7 +244,7 @@
 			projectRoot = "";
 			targets = (
 				612077421A93ECC500139BBF /* VenmoColorsSample */,
-				E0222FC61A946C69006C4033 /* VenmoColorsTests */,
+				E0222FC61A946C69006C4033 /* VenmoColorsSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -531,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsTests" */ = {
+		E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0222FCF1A946C6A006C4033 /* Debug */,

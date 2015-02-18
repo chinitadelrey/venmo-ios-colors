@@ -9,34 +9,6 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "612077421A93ECC500139BBF"
-               BuildableName = "VenmoColorsSample.app"
-               BlueprintName = "VenmoColorsSample"
-               ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6120775B1A93ECC500139BBF"
-               BuildableName = "VenmoColorsSampleTests.xctest"
-               BlueprintName = "VenmoColorsSampleTests"
-               ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "YES">
@@ -60,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6120775B1A93ECC500139BBF"
-               BuildableName = "VenmoColorsSampleTests.xctest"
-               BlueprintName = "VenmoColorsSampleTests"
-               ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "E0222FC61A946C69006C4033"
                BuildableName = "VenmoColorsSampleTests.xctest"
                BlueprintName = "VenmoColorsSampleTests"
@@ -80,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "612077421A93ECC500139BBF"
-            BuildableName = "VenmoColorsSample.app"
-            BlueprintName = "VenmoColorsSample"
+            BlueprintIdentifier = "E0222FC61A946C69006C4033"
+            BuildableName = "VenmoColorsSampleTests.xctest"
+            BlueprintName = "VenmoColorsSampleTests"
             ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,15 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "612077421A93ECC500139BBF"
-            BuildableName = "VenmoColorsSample.app"
-            BlueprintName = "VenmoColorsSample"
+            BlueprintIdentifier = "E0222FC61A946C69006C4033"
+            BuildableName = "VenmoColorsSampleTests.xctest"
+            BlueprintName = "VenmoColorsSampleTests"
             ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -114,15 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "612077421A93ECC500139BBF"
-            BuildableName = "VenmoColorsSample.app"
-            BlueprintName = "VenmoColorsSample"
+            BlueprintIdentifier = "E0222FC61A946C69006C4033"
+            BuildableName = "VenmoColorsSampleTests.xctest"
+            BlueprintName = "VenmoColorsSampleTests"
             ReferencedContainer = "container:VenmoColorsSample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
