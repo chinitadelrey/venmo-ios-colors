@@ -14,7 +14,19 @@
 		6120777C1A93EF4900139BBF /* VENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612077791A93EF4900139BBF /* VENAppDelegate.m */; };
 		6120777F1A93EF5000139BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6120777D1A93EF5000139BBF /* LaunchScreen.xib */; };
 		BB941F6620E903A6A8B7D548 /* libPods-VenmoColorsSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */; };
+		E0222FCC1A946C69006C4033 /* UIColor+VenmoColorsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */; };
+		F78708807BDE4A42CE0C6CCA /* libPods-VenmoColorsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67994AD9499081438F36AD21 /* libPods-VenmoColorsTests.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0222FCD1A946C69006C4033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6120773B1A93ECC500139BBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 612077421A93ECC500139BBF;
+			remoteInfo = VenmoColorsSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		612077431A93ECC500139BBF /* VenmoColorsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoColorsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,8 +40,14 @@
 		612077781A93EF4900139BBF /* VENAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENAppDelegate.h; path = SupportingFiles/VENAppDelegate.h; sourceTree = "<group>"; };
 		612077791A93EF4900139BBF /* VENAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENAppDelegate.m; path = SupportingFiles/VENAppDelegate.m; sourceTree = "<group>"; };
 		6120777E1A93EF5000139BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SupportingFiles/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67994AD9499081438F36AD21 /* libPods-VenmoColorsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VenmoColorsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VenmoColorsSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30C6BAA85BC22985D8C8090 /* Pods-VenmoColorsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.debug.xcconfig"; sourceTree = "<group>"; };
+		B7829AB6D0C7583EFC162577 /* Pods-VenmoColorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C28FB549264F68A5F9B8AFA2 /* Pods-VenmoColorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0222FC71A946C69006C4033 /* VenmoColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0222FCA1A946C69006C4033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VenmoColorsSpec.m"; sourceTree = "<group>"; };
 		E851894EEEBEF06492624CB0 /* Pods-VenmoColorsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,6 +60,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0222FC41A946C69006C4033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78708807BDE4A42CE0C6CCA /* libPods-VenmoColorsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */,
+				67994AD9499081438F36AD21 /* libPods-VenmoColorsTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -57,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				612077451A93ECC500139BBF /* VenmoColorsSample */,
+				E0222FC81A946C69006C4033 /* VenmoColorsSampleTests */,
 				612077441A93ECC500139BBF /* Products */,
 				7EEEFB986B7B3A833DCD9A85 /* Pods */,
 				229642138645F4767BD7770C /* Frameworks */,
@@ -67,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				612077431A93ECC500139BBF /* VenmoColorsSample.app */,
+				E0222FC71A946C69006C4033 /* VenmoColorsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,8 +146,28 @@
 			children = (
 				B30C6BAA85BC22985D8C8090 /* Pods-VenmoColorsSample.debug.xcconfig */,
 				E851894EEEBEF06492624CB0 /* Pods-VenmoColorsSample.release.xcconfig */,
+				B7829AB6D0C7583EFC162577 /* Pods-VenmoColorsTests.debug.xcconfig */,
+				C28FB549264F68A5F9B8AFA2 /* Pods-VenmoColorsTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0222FC81A946C69006C4033 /* VenmoColorsSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */,
+				E0222FC91A946C69006C4033 /* Supporting Files */,
+			);
+			name = VenmoColorsSampleTests;
+			path = VenmoColorsTests;
+			sourceTree = "<group>";
+		};
+		E0222FC91A946C69006C4033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0222FCA1A946C69006C4033 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +192,26 @@
 			productReference = 612077431A93ECC500139BBF /* VenmoColorsSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E0222FC61A946C69006C4033 /* VenmoColorsSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsSampleTests" */;
+			buildPhases = (
+				C97C675C7C21C49AE4816034 /* Check Pods Manifest.lock */,
+				E0222FC31A946C69006C4033 /* Sources */,
+				E0222FC41A946C69006C4033 /* Frameworks */,
+				E0222FC51A946C69006C4033 /* Resources */,
+				001FDDA802FFEC23C6E758FB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0222FCE1A946C69006C4033 /* PBXTargetDependency */,
+			);
+			name = VenmoColorsSampleTests;
+			productName = VenmoColorsTests;
+			productReference = E0222FC71A946C69006C4033 /* VenmoColorsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -154,6 +223,10 @@
 				TargetAttributes = {
 					612077421A93ECC500139BBF = {
 						CreatedOnToolsVersion = 6.1.1;
+					};
+					E0222FC61A946C69006C4033 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 612077421A93ECC500139BBF;
 					};
 				};
 			};
@@ -171,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				612077421A93ECC500139BBF /* VenmoColorsSample */,
+				E0222FC61A946C69006C4033 /* VenmoColorsSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -185,9 +259,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0222FC51A946C69006C4033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		001FDDA802FFEC23C6E758FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2840E4E348B70D73C7FE18D9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -218,6 +314,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C97C675C7C21C49AE4816034 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,7 +343,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E0222FC31A946C69006C4033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0222FCC1A946C69006C4033 /* UIColor+VenmoColorsSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0222FCE1A946C69006C4033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 612077421A93ECC500139BBF /* VenmoColorsSample */;
+			targetProxy = E0222FCD1A946C69006C4033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6120777D1A93EF5000139BBF /* LaunchScreen.xib */ = {
@@ -348,6 +475,42 @@
 			};
 			name = Release;
 		};
+		E0222FCF1A946C6A006C4033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7829AB6D0C7583EFC162577 /* Pods-VenmoColorsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VenmoColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample";
+			};
+			name = Debug;
+		};
+		E0222FD01A946C6A006C4033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28FB549264F68A5F9B8AFA2 /* Pods-VenmoColorsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VenmoColorsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -365,6 +528,15 @@
 			buildConfigurations = (
 				612077671A93ECC500139BBF /* Debug */,
 				612077681A93ECC500139BBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0222FD11A946C6A006C4033 /* Build configuration list for PBXNativeTarget "VenmoColorsSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0222FCF1A946C6A006C4033 /* Debug */,
+				E0222FD01A946C6A006C4033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
