@@ -1,8 +1,6 @@
 #import "VENColorsTableViewController.h"
-#import <objc/objc-runtime.h>
 #import "VENColorTableViewCell.h"
-
-static NSString *const VENColorsPrefix = @"ven_";
+#import "VENColorHelper.h"
 
 @interface VENColorsTableViewController ()
 
@@ -16,7 +14,7 @@ static NSString *const VENColorsPrefix = @"ven_";
 {
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        _colors = [[self class] colorSelectorNames];
+        _colors = [VENColorHelper venmoColors];
     }
     return self;
 }
@@ -56,27 +54,6 @@ static NSString *const VENColorsPrefix = @"ven_";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return VENColorTableViewCellHeight;
-}
-
-
-#pragma mark - Helper Methods
-
-+ (NSArray *)colorSelectorNames
-{
-    Class currentClass = [UIColor class];
-    unsigned int methodCount;
-    Method *methodList = class_copyMethodList(object_getClass(currentClass), &methodCount);
-    NSMutableArray *selectorNames = [[NSMutableArray alloc] initWithCapacity:methodCount];
-    for (NSUInteger i = 0; i < methodCount; i++) {
-        NSString *methodName = [NSString stringWithCString:sel_getName(method_getName(methodList[i]))
-                                                  encoding:NSUTF8StringEncoding];
-        if ([methodName hasPrefix:VENColorsPrefix]) {
-            [selectorNames addObject:methodName];
-        }
-    }
-    free(methodList);
-
-    return [NSArray arrayWithArray:selectorNames];
 }
 
 

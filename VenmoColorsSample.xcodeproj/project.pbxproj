@@ -16,6 +16,8 @@
 		6120777C1A93EF4900139BBF /* VENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612077791A93EF4900139BBF /* VENAppDelegate.m */; };
 		6120777F1A93EF5000139BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6120777D1A93EF5000139BBF /* LaunchScreen.xib */; };
 		612077D41A9517F500139BBF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 612077D31A9517F500139BBF /* Info.plist */; };
+		61D350381A953F8B00B3D4CB /* VENColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D350371A953F8B00B3D4CB /* VENColorHelper.m */; };
+		61D350391A95496900B3D4CB /* VENColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D350371A953F8B00B3D4CB /* VENColorHelper.m */; };
 		E0222FCC1A946C69006C4033 /* UIColor+VenmoColorsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		6120777E1A93EF5000139BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SupportingFiles/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		612077D31A9517F500139BBF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
 		612077D51A95186100139BBF /* VenmoColorsSampleTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "VenmoColorsSampleTests-Prefix.pch"; path = "SupportingFiles/VenmoColorsSampleTests-Prefix.pch"; sourceTree = "<group>"; };
+		61D350361A953F8B00B3D4CB /* VENColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENColorHelper.h; path = Models/VENColorHelper.h; sourceTree = "<group>"; };
+		61D350371A953F8B00B3D4CB /* VENColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENColorHelper.m; path = Models/VENColorHelper.m; sourceTree = "<group>"; };
 		A76189842A1E740D46BE9CFF /* Pods-VenmoColorsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.debug.xcconfig"; sourceTree = "<group>"; };
 		E0222FC71A946C69006C4033 /* VenmoColorsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VenmoColorsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0222FCB1A946C69006C4033 /* UIColor+VenmoColorsSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VenmoColorsSpec.m"; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 		612077451A93ECC500139BBF /* VenmoColorsSample */ = {
 			isa = PBXGroup;
 			children = (
+				61D350351A953F5C00B3D4CB /* Models */,
 				6120776D1A93EF1C00139BBF /* Views */,
 				6120776C1A93EF1900139BBF /* Controllers */,
 				612077461A93ECC500139BBF /* SupportingFiles */,
@@ -152,6 +157,15 @@
 				612077701A93EF3300139BBF /* VENColorTableViewCell.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		61D350351A953F5C00B3D4CB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				61D350361A953F8B00B3D4CB /* VENColorHelper.h */,
+				61D350371A953F8B00B3D4CB /* VENColorHelper.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		E0222FC81A946C69006C4033 /* VenmoColorsSampleTests */ = {
@@ -344,6 +358,7 @@
 				612077711A93EF3300139BBF /* VENColorTableViewCell.m in Sources */,
 				6120777B1A93EF4900139BBF /* main.m in Sources */,
 				612077751A93EF3A00139BBF /* VENColorsTableViewController.m in Sources */,
+				61D350381A953F8B00B3D4CB /* VENColorHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0222FCC1A946C69006C4033 /* UIColor+VenmoColorsSpec.m in Sources */,
+				61D350391A95496900B3D4CB /* VENColorHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +506,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample";
+				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 			};
 			name = Debug;
 		};
@@ -507,6 +524,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample";
+				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
 			};
 			name = Release;
 		};

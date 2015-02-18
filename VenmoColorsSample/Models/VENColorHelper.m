@@ -1,13 +1,25 @@
-//
-//  VENVenmoColorHelper.m
-//  VenmoColorsSample
-//
-//  Created by Singh, Dasmer on 2/18/15.
-//  Copyright (c) 2015 Venmo Inc. All rights reserved.
-//
+#import "VENColorHelper.h"
+#import <objc/objc-runtime.h>
 
-#import "VENVenmoColorHelper.h"
+static NSString *const VENColorsPrefix = @"ven_";
 
-@implementation VENVenmoColorHelper
+@implementation VENColorHelper
+
++ (NSArray *)venmoColors
+{
+    unsigned int methodCount;
+    Method *methodList = class_copyMethodList(object_getClass([UIColor class]), &methodCount);
+    NSMutableArray *selectorNames = [[NSMutableArray alloc] initWithCapacity:methodCount];
+    for (NSUInteger i = 0; i < methodCount; i++) {
+        NSString *methodName = [NSString stringWithCString:sel_getName(method_getName(methodList[i]))
+                                                  encoding:NSUTF8StringEncoding];
+        if ([methodName hasPrefix:VENColorsPrefix]) {
+            [selectorNames addObject:methodName];
+        }
+    }
+    free(methodList);
+
+    return [NSArray arrayWithArray:selectorNames];
+}
 
 @end
