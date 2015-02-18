@@ -1,375 +1,1135 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		612077711A93EF3300139BBF /* VENColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6120776F1A93EF3300139BBF /* VENColorTableViewCell.m */; };
-		612077721A93EF3300139BBF /* VENColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 612077701A93EF3300139BBF /* VENColorTableViewCell.xib */; };
-		612077751A93EF3A00139BBF /* VENColorsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 612077741A93EF3A00139BBF /* VENColorsTableViewController.m */; };
-		6120777B1A93EF4900139BBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 612077771A93EF4900139BBF /* main.m */; };
-		6120777C1A93EF4900139BBF /* VENAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 612077791A93EF4900139BBF /* VENAppDelegate.m */; };
-		6120777F1A93EF5000139BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6120777D1A93EF5000139BBF /* LaunchScreen.xib */; };
-		BB941F6620E903A6A8B7D548 /* libPods-VenmoColorsSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		612077431A93ECC500139BBF /* VenmoColorsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenmoColorsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6120776E1A93EF3300139BBF /* VENColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENColorTableViewCell.h; path = Views/VENColorTableViewCell.h; sourceTree = "<group>"; };
-		6120776F1A93EF3300139BBF /* VENColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENColorTableViewCell.m; path = Views/VENColorTableViewCell.m; sourceTree = "<group>"; };
-		612077701A93EF3300139BBF /* VENColorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VENColorTableViewCell.xib; path = Views/VENColorTableViewCell.xib; sourceTree = "<group>"; };
-		612077731A93EF3A00139BBF /* VENColorsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENColorsTableViewController.h; path = Controllers/VENColorsTableViewController.h; sourceTree = "<group>"; };
-		612077741A93EF3A00139BBF /* VENColorsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENColorsTableViewController.m; path = Controllers/VENColorsTableViewController.m; sourceTree = "<group>"; };
-		612077761A93EF4900139BBF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
-		612077771A93EF4900139BBF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
-		612077781A93EF4900139BBF /* VENAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VENAppDelegate.h; path = SupportingFiles/VENAppDelegate.h; sourceTree = "<group>"; };
-		612077791A93EF4900139BBF /* VENAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VENAppDelegate.m; path = SupportingFiles/VENAppDelegate.m; sourceTree = "<group>"; };
-		6120777E1A93EF5000139BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = SupportingFiles/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VenmoColorsSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B30C6BAA85BC22985D8C8090 /* Pods-VenmoColorsSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.debug.xcconfig"; sourceTree = "<group>"; };
-		E851894EEEBEF06492624CB0 /* Pods-VenmoColorsSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VenmoColorsSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.release.xcconfig"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		612077401A93ECC500139BBF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB941F6620E903A6A8B7D548 /* libPods-VenmoColorsSample.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		229642138645F4767BD7770C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				860D4AC43F77EEA411BC705A /* libPods-VenmoColorsSample.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6120773A1A93ECC500139BBF = {
-			isa = PBXGroup;
-			children = (
-				612077451A93ECC500139BBF /* VenmoColorsSample */,
-				612077441A93ECC500139BBF /* Products */,
-				7EEEFB986B7B3A833DCD9A85 /* Pods */,
-				229642138645F4767BD7770C /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		612077441A93ECC500139BBF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				612077431A93ECC500139BBF /* VenmoColorsSample.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		612077451A93ECC500139BBF /* VenmoColorsSample */ = {
-			isa = PBXGroup;
-			children = (
-				6120776D1A93EF1C00139BBF /* Views */,
-				6120776C1A93EF1900139BBF /* Controllers */,
-				612077461A93ECC500139BBF /* SupportingFiles */,
-			);
-			path = VenmoColorsSample;
-			sourceTree = "<group>";
-		};
-		612077461A93ECC500139BBF /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				612077781A93EF4900139BBF /* VENAppDelegate.h */,
-				612077791A93EF4900139BBF /* VENAppDelegate.m */,
-				6120777D1A93EF5000139BBF /* LaunchScreen.xib */,
-				612077761A93EF4900139BBF /* Info.plist */,
-				612077771A93EF4900139BBF /* main.m */,
-			);
-			name = SupportingFiles;
-			sourceTree = "<group>";
-		};
-		6120776C1A93EF1900139BBF /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				612077731A93EF3A00139BBF /* VENColorsTableViewController.h */,
-				612077741A93EF3A00139BBF /* VENColorsTableViewController.m */,
-			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		6120776D1A93EF1C00139BBF /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6120776E1A93EF3300139BBF /* VENColorTableViewCell.h */,
-				6120776F1A93EF3300139BBF /* VENColorTableViewCell.m */,
-				612077701A93EF3300139BBF /* VENColorTableViewCell.xib */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		7EEEFB986B7B3A833DCD9A85 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B30C6BAA85BC22985D8C8090 /* Pods-VenmoColorsSample.debug.xcconfig */,
-				E851894EEEBEF06492624CB0 /* Pods-VenmoColorsSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		612077421A93ECC500139BBF /* VenmoColorsSample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 612077661A93ECC500139BBF /* Build configuration list for PBXNativeTarget "VenmoColorsSample" */;
-			buildPhases = (
-				2840E4E348B70D73C7FE18D9 /* Check Pods Manifest.lock */,
-				6120773F1A93ECC500139BBF /* Sources */,
-				612077401A93ECC500139BBF /* Frameworks */,
-				612077411A93ECC500139BBF /* Resources */,
-				8B204489D5AEB1E07632CA38 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VenmoColorsSample;
-			productName = VenmoColorsSample;
-			productReference = 612077431A93ECC500139BBF /* VenmoColorsSample.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		6120773B1A93ECC500139BBF /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Venmo Inc.";
-				TargetAttributes = {
-					612077421A93ECC500139BBF = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-				};
-			};
-			buildConfigurationList = 6120773E1A93ECC500139BBF /* Build configuration list for PBXProject "VenmoColorsSample" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 6120773A1A93ECC500139BBF;
-			productRefGroup = 612077441A93ECC500139BBF /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				612077421A93ECC500139BBF /* VenmoColorsSample */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		612077411A93ECC500139BBF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6120777F1A93EF5000139BBF /* LaunchScreen.xib in Resources */,
-				612077721A93EF3300139BBF /* VENColorTableViewCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		2840E4E348B70D73C7FE18D9 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8B204489D5AEB1E07632CA38 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		6120773F1A93ECC500139BBF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6120777C1A93EF4900139BBF /* VENAppDelegate.m in Sources */,
-				612077711A93EF3300139BBF /* VENColorTableViewCell.m in Sources */,
-				6120777B1A93EF4900139BBF /* main.m in Sources */,
-				612077751A93EF3A00139BBF /* VENColorsTableViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		6120777D1A93EF5000139BBF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6120777E1A93EF5000139BBF /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		612077641A93ECC500139BBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		612077651A93ECC500139BBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		612077671A93ECC500139BBF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B30C6BAA85BC22985D8C8090 /* Pods-VenmoColorsSample.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VenmoColorsSample/SupportingFiles/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
-			};
-			name = Debug;
-		};
-		612077681A93ECC500139BBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E851894EEEBEF06492624CB0 /* Pods-VenmoColorsSample.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VenmoColorsSample/SupportingFiles/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WARNING_CFLAGS = "-Wno-arc-performSelector-leaks";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		6120773E1A93ECC500139BBF /* Build configuration list for PBXProject "VenmoColorsSample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				612077641A93ECC500139BBF /* Debug */,
-				612077651A93ECC500139BBF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		612077661A93ECC500139BBF /* Build configuration list for PBXNativeTarget "VenmoColorsSample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				612077671A93ECC500139BBF /* Debug */,
-				612077681A93ECC500139BBF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 6120773B1A93ECC500139BBF /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>001FDDA802FFEC23C6E758FB</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>229642138645F4767BD7770C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>860D4AC43F77EEA411BC705A</string>
+				<string>67994AD9499081438F36AD21</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2840E4E348B70D73C7FE18D9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>6120773A1A93ECC500139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>612077451A93ECC500139BBF</string>
+				<string>E0222FC81A946C69006C4033</string>
+				<string>612077441A93ECC500139BBF</string>
+				<string>7EEEFB986B7B3A833DCD9A85</string>
+				<string>229642138645F4767BD7770C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120773B1A93ECC500139BBF</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0610</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Venmo Inc.</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>612077421A93ECC500139BBF</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+					</dict>
+					<key>E0222FC61A946C69006C4033</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1.1</string>
+						<key>TestTargetID</key>
+						<string>612077421A93ECC500139BBF</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>6120773E1A93ECC500139BBF</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>6120773A1A93ECC500139BBF</string>
+			<key>productRefGroup</key>
+			<string>612077441A93ECC500139BBF</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>612077421A93ECC500139BBF</string>
+				<string>E0222FC61A946C69006C4033</string>
+			</array>
+		</dict>
+		<key>6120773E1A93ECC500139BBF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>612077641A93ECC500139BBF</string>
+				<string>612077651A93ECC500139BBF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6120773F1A93ECC500139BBF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6120777C1A93EF4900139BBF</string>
+				<string>612077711A93EF3300139BBF</string>
+				<string>6120777B1A93EF4900139BBF</string>
+				<string>612077751A93EF3A00139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>612077401A93ECC500139BBF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BB941F6620E903A6A8B7D548</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>612077411A93ECC500139BBF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6120777F1A93EF5000139BBF</string>
+				<string>612077721A93EF3300139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>612077421A93ECC500139BBF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>612077661A93ECC500139BBF</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2840E4E348B70D73C7FE18D9</string>
+				<string>6120773F1A93ECC500139BBF</string>
+				<string>612077401A93ECC500139BBF</string>
+				<string>612077411A93ECC500139BBF</string>
+				<string>8B204489D5AEB1E07632CA38</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>VenmoColorsSample</string>
+			<key>productName</key>
+			<string>VenmoColorsSample</string>
+			<key>productReference</key>
+			<string>612077431A93ECC500139BBF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>612077431A93ECC500139BBF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>VenmoColorsSample.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>612077441A93ECC500139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>612077431A93ECC500139BBF</string>
+				<string>E0222FC71A946C69006C4033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077451A93ECC500139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6120776D1A93EF1C00139BBF</string>
+				<string>6120776C1A93EF1900139BBF</string>
+				<string>612077461A93ECC500139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>VenmoColorsSample</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077461A93ECC500139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>612077781A93EF4900139BBF</string>
+				<string>612077791A93EF4900139BBF</string>
+				<string>6120777D1A93EF5000139BBF</string>
+				<string>612077761A93EF4900139BBF</string>
+				<string>612077771A93EF4900139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SupportingFiles</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077641A93ECC500139BBF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>612077651A93ECC500139BBF</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>612077661A93ECC500139BBF</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>612077671A93ECC500139BBF</string>
+				<string>612077681A93ECC500139BBF</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>612077671A93ECC500139BBF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B30C6BAA85BC22985D8C8090</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>VenmoColorsSample/SupportingFiles/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WARNING_CFLAGS</key>
+				<string>-Wno-arc-performSelector-leaks</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>612077681A93ECC500139BBF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>E851894EEEBEF06492624CB0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>VenmoColorsSample/SupportingFiles/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>WARNING_CFLAGS</key>
+				<string>-Wno-arc-performSelector-leaks</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6120776C1A93EF1900139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>612077731A93EF3A00139BBF</string>
+				<string>612077741A93EF3A00139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controllers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120776D1A93EF1C00139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6120776E1A93EF3300139BBF</string>
+				<string>6120776F1A93EF3300139BBF</string>
+				<string>612077701A93EF3300139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120776E1A93EF3300139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>VENColorTableViewCell.h</string>
+			<key>path</key>
+			<string>Views/VENColorTableViewCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120776F1A93EF3300139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>VENColorTableViewCell.m</string>
+			<key>path</key>
+			<string>Views/VENColorTableViewCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077701A93EF3300139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>VENColorTableViewCell.xib</string>
+			<key>path</key>
+			<string>Views/VENColorTableViewCell.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077711A93EF3300139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6120776F1A93EF3300139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>612077721A93EF3300139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>612077701A93EF3300139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>612077731A93EF3A00139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>VENColorsTableViewController.h</string>
+			<key>path</key>
+			<string>Controllers/VENColorsTableViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077741A93EF3A00139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>VENColorsTableViewController.m</string>
+			<key>path</key>
+			<string>Controllers/VENColorsTableViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077751A93EF3A00139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>612077741A93EF3A00139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>612077761A93EF4900139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>name</key>
+			<string>Info.plist</string>
+			<key>path</key>
+			<string>SupportingFiles/Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077771A93EF4900139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>main.m</string>
+			<key>path</key>
+			<string>SupportingFiles/main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077781A93EF4900139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>VENAppDelegate.h</string>
+			<key>path</key>
+			<string>SupportingFiles/VENAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>612077791A93EF4900139BBF</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>VENAppDelegate.m</string>
+			<key>path</key>
+			<string>SupportingFiles/VENAppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120777B1A93EF4900139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>612077771A93EF4900139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6120777C1A93EF4900139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>612077791A93EF4900139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6120777D1A93EF5000139BBF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6120777E1A93EF5000139BBF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120777E1A93EF5000139BBF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>SupportingFiles/Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6120777F1A93EF5000139BBF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6120777D1A93EF5000139BBF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>67994AD9499081438F36AD21</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-VenmoColorsTests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7EEEFB986B7B3A833DCD9A85</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>B30C6BAA85BC22985D8C8090</string>
+				<string>E851894EEEBEF06492624CB0</string>
+				<string>B7829AB6D0C7583EFC162577</string>
+				<string>C28FB549264F68A5F9B8AFA2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>860D4AC43F77EEA411BC705A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-VenmoColorsSample.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>8B204489D5AEB1E07632CA38</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>B30C6BAA85BC22985D8C8090</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-VenmoColorsSample.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B7829AB6D0C7583EFC162577</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-VenmoColorsTests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BB941F6620E903A6A8B7D548</key>
+		<dict>
+			<key>fileRef</key>
+			<string>860D4AC43F77EEA411BC705A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C28FB549264F68A5F9B8AFA2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-VenmoColorsTests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-VenmoColorsTests/Pods-VenmoColorsTests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C97C675C7C21C49AE4816034</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E0222FC31A946C69006C4033</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E0222FCC1A946C69006C4033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E0222FC41A946C69006C4033</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F78708807BDE4A42CE0C6CCA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E0222FC51A946C69006C4033</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E0222FC61A946C69006C4033</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E0222FD11A946C6A006C4033</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C97C675C7C21C49AE4816034</string>
+				<string>E0222FC31A946C69006C4033</string>
+				<string>E0222FC41A946C69006C4033</string>
+				<string>E0222FC51A946C69006C4033</string>
+				<string>001FDDA802FFEC23C6E758FB</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>E0222FCE1A946C69006C4033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>VenmoColorsTests</string>
+			<key>productName</key>
+			<string>VenmoColorsTests</string>
+			<key>productReference</key>
+			<string>E0222FC71A946C69006C4033</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>E0222FC71A946C69006C4033</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>VenmoColorsTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>E0222FC81A946C69006C4033</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E0222FCB1A946C69006C4033</string>
+				<string>E0222FC91A946C69006C4033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>VenmoColorsTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0222FC91A946C69006C4033</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E0222FCA1A946C69006C4033</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0222FCA1A946C69006C4033</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0222FCB1A946C69006C4033</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>VenmoColorsTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0222FCC1A946C69006C4033</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E0222FCB1A946C69006C4033</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E0222FCD1A946C69006C4033</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>6120773B1A93ECC500139BBF</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>612077421A93ECC500139BBF</string>
+			<key>remoteInfo</key>
+			<string>VenmoColorsSample</string>
+		</dict>
+		<key>E0222FCE1A946C69006C4033</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>612077421A93ECC500139BBF</string>
+			<key>targetProxy</key>
+			<string>E0222FCD1A946C69006C4033</string>
+		</dict>
+		<key>E0222FCF1A946C6A006C4033</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>B7829AB6D0C7583EFC162577</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>VenmoColorsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E0222FD01A946C6A006C4033</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C28FB549264F68A5F9B8AFA2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>VenmoColorsTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/VenmoColorsSample.app/VenmoColorsSample</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>E0222FD11A946C6A006C4033</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E0222FCF1A946C6A006C4033</string>
+				<string>E0222FD01A946C6A006C4033</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E851894EEEBEF06492624CB0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-VenmoColorsSample.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-VenmoColorsSample/Pods-VenmoColorsSample.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F78708807BDE4A42CE0C6CCA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>67994AD9499081438F36AD21</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>6120773B1A93ECC500139BBF</string>
+</dict>
+</plist>
