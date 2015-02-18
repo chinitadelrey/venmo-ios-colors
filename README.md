@@ -1,5 +1,5 @@
 # Venmo iOS Colors
-[![Build Status](https://travis-ci.org/venmo/VENTouchLock.svg?branch=master)](https://travis-ci.org/venmo/venmo-ios-colors)
+[![Build Status](https://travis-ci.org/venmo/venmo-ios-colors.svg?branch=master)](https://travis-ci.org/venmo/venmo-ios-colors)
 
 UIColors used in the Venmo app.
 
