@@ -76,7 +76,6 @@ static NSString *const VENColorsPrefix = @"ven_";
     }
     free(methodList);
 
-    [selectorNames sortUsingSelector:@selector(caseInsensitiveCompare:)];
     return [NSArray arrayWithArray:selectorNames];
 }
 
