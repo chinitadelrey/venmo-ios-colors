@@ -1,16 +1,34 @@
 #import <venmo-ios-colors/UIColor+VenmoColors.h>
 #import <Colours/Colours.h>
-#import <Specta/Specta.h>
-#import <Expecta/Expecta.h>
+#import "VENColorHelper.h"
 
 SpecBegin(UIColor_VenmoColors)
 
 describe(@"ven_venmoBlueColor", ^{
+
     it(@"should really be Venmo Blue™", ^{
-        UIColor *venmoBlue = [UIColor ven_venmoBlueColor];
-        expect([venmoBlue red]).to.equal(61/255.0f);
-        expect([venmoBlue green]).to.equal(149/255.0f);
-        expect([venmoBlue blue]).to.equal(206/255.0f);
+        UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 44, 44)];
+        view.backgroundColor = [UIColor ven_venmoBlueColor];
+        expect(view).to.haveValidSnapshot();
+    });
+});
+
+describe(@"colorWithHexString:", ^{
+
+    it(@"should only be passed strings that are valid 32 bit hexidecimal digits", ^{
+        id colorClassMock = [OCMockObject mockForClass:[UIColor class]];
+        NSString *hexRegex = @"^([A-Fa-f0-9]{6})$";
+
+        for (NSString *selectorName in [VENColorHelper venmoColors]) {
+            [[colorClassMock expect] colorFromHexString:[OCMArg checkWithBlock:^BOOL(NSString *hexString) {
+                NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", hexRegex];
+                return [predicate evaluateWithObject:hexString];
+            }]];
+
+            [[UIColor class] performSelector:NSSelectorFromString(selectorName)];
+
+            [colorClassMock verify];
+        }
     });
 });
 

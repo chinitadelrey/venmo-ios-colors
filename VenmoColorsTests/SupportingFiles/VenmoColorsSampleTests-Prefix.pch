@@ -1,0 +1,5 @@
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
+#define EXP_SHORTHAND
+#import <Expecta+Snapshots/EXPMatchers+FBSnapshotTest.h>
+#import <OCMock/OCMock.h>
