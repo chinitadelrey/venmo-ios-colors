@@ -1,5 +1,5 @@
 #import <venmo-ios-colors/UIColor+VenmoColors.h>
-#import <Colours/Colours.h>
+#import <EDColor/UIColor+Hex.h>
 #import "VENColorHelper.h"
 
 SpecBegin(UIColor_VenmoColors)
@@ -20,7 +20,7 @@ describe(@"colorWithHexString:", ^{
         NSString *hexRegex = @"^([A-Fa-f0-9]{6})$";
 
         for (NSString *selectorName in [VENColorHelper venmoColors]) {
-            [[colorClassMock expect] colorFromHexString:[OCMArg checkWithBlock:^BOOL(NSString *hexString) {
+            [[colorClassMock expect] colorWithHexString:[OCMArg checkWithBlock:^BOOL(NSString *hexString) {
                 NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", hexRegex];
                 return [predicate evaluateWithObject:hexString];
             }]];

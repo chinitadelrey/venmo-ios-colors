@@ -1,5 +1,5 @@
 #import "UIColor+VenmoColors.h"
-#import <Colours/Colours.h>
+#import <EDColor/UIColor+Hex.h>
 
 @implementation UIColor (VenmoColors)
 
@@ -7,42 +7,42 @@
 
 + (UIColor *)ven_superLightGreyColor
 {
-    return [UIColor colorFromHexString:@"FAFBFC"];
+    return [UIColor colorWithHexString:@"FAFBFC"];
 }
 
 + (UIColor *)ven_veryLightGreyColor
 {
-    return [UIColor colorFromHexString:@"E7EBEE"];
+    return [UIColor colorWithHexString:@"E7EBEE"];
 }
 
 + (UIColor *)ven_lightGreyColor
 {
-    return [UIColor colorFromHexString:@"DEE2E5"];
+    return [UIColor colorWithHexString:@"DEE2E5"];
 }
 
 + (UIColor *)ven_greyColor
 {
-    return [UIColor colorFromHexString:@"707C7C"];
+    return [UIColor colorWithHexString:@"707C7C"];
 }
 
 + (UIColor *)ven_mediumGreyColor
 {
-    return [UIColor colorFromHexString:@"CACCCE"];
+    return [UIColor colorWithHexString:@"CACCCE"];
 }
 
 + (UIColor *)ven_darkGreyColor
 {
-    return [UIColor colorFromHexString:@"262729"];
+    return [UIColor colorWithHexString:@"262729"];
 }
 
 + (UIColor *)ven_dividerGreyColor
 {
-    return [UIColor colorFromHexString:@"B7BDBD"];
+    return [UIColor colorWithHexString:@"B7BDBD"];
 }
 
 + (UIColor *)ven_composeGreyBackgroundColor
 {
-    return [UIColor colorFromHexString:@"F8F9FA"];
+    return [UIColor colorWithHexString:@"F8F9FA"];
 }
 
 
@@ -50,27 +50,27 @@
 
 + (UIColor *)ven_venmoBlueColor
 {
-    return [UIColor colorFromHexString:@"3D95CE"];
+    return [UIColor colorWithHexString:@"3D95CE"];
 }
 
 + (UIColor *)ven_mediumBlueGreyColor
 {
-    return [UIColor colorFromHexString:@"C0C9CF"];
+    return [UIColor colorWithHexString:@"C0C9CF"];
 }
 
 + (UIColor *)ven_lightBlueColor
 {
-    return [UIColor colorFromHexString:@"E9F4F9"];
+    return [UIColor colorWithHexString:@"E9F4F9"];
 }
 
 + (UIColor *)ven_buttonBlueColor
 {
-    return [UIColor colorFromHexString:@"509FD3"];
+    return [UIColor colorWithHexString:@"509FD3"];
 }
 
 + (UIColor *)ven_heartBlueColor
 {
-    return [UIColor colorFromHexString:@"3D94CE"];
+    return [UIColor colorWithHexString:@"3D94CE"];
 }
 
 
@@ -78,27 +78,27 @@
 
 + (UIColor *)ven_drawerBackgroundColor
 {
-    return [UIColor colorFromHexString:@"333B42"];
+    return [UIColor colorWithHexString:@"333B42"];
 }
 
 + (UIColor *)ven_drawerSelectedTextColor
 {
-    return [UIColor colorFromHexString:@"6EBDF7"];
+    return [UIColor colorWithHexString:@"6EBDF7"];
 }
 
 + (UIColor *)ven_drawerSelectedCellBackgroundColor
 {
-    return [UIColor colorFromHexString:@"485159"];
+    return [UIColor colorWithHexString:@"485159"];
 }
 
 + (UIColor *)ven_drawerTextColor
 {
-    return [UIColor colorFromHexString:@"C0C9CF"];
+    return [UIColor colorWithHexString:@"C0C9CF"];
 }
 
 + (UIColor *)ven_drawerLineColor
 {
-    return [UIColor colorFromHexString:@"485259"];
+    return [UIColor colorWithHexString:@"485259"];
 }
 
 
@@ -106,22 +106,22 @@
 
 + (UIColor *)ven_greenColor
 {
-    return [UIColor colorFromHexString:@"59BF39"];
+    return [UIColor colorWithHexString:@"59BF39"];
 }
 
 + (UIColor *)ven_redColor
 {
-    return [UIColor colorFromHexString:@"E91A1A"];
+    return [UIColor colorWithHexString:@"E91A1A"];
 }
 
 + (UIColor *)ven_placeholderTextGreyColor
 {
-    return [UIColor colorFromHexString:@"C7CBCD"];
+    return [UIColor colorWithHexString:@"C7CBCD"];
 }
 
 + (UIColor *)ven_linkSelectedBlueColor
 {
-    return [UIColor colorFromHexString:@"355CC2"];
+    return [UIColor colorWithHexString:@"355CC2"];
 }
 
 @end

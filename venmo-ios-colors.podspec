@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Colors/*.{h,m}'
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.dependency 'Colours', '~> 5.0'
+  s.dependency 'EDColor', '~> 0.4.0'
 end
