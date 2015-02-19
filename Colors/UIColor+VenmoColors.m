@@ -17,7 +17,7 @@
 
 + (UIColor *)ven_lightGreyColor
 {
-    return [UIColor colorFromHexString:@"E7EBEE"];
+    return [UIColor colorFromHexString:@"DEE2E5"];
 }
 
 + (UIColor *)ven_greyColor
