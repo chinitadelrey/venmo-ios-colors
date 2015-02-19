@@ -6,11 +6,11 @@
 // project.
 
 
-// Colours
-#define COCOAPODS_POD_AVAILABLE_Colours
-#define COCOAPODS_VERSION_MAJOR_Colours 5
-#define COCOAPODS_VERSION_MINOR_Colours 6
-#define COCOAPODS_VERSION_PATCH_Colours 1
+// EDColor
+#define COCOAPODS_POD_AVAILABLE_EDColor
+#define COCOAPODS_VERSION_MAJOR_EDColor 0
+#define COCOAPODS_VERSION_MINOR_EDColor 4
+#define COCOAPODS_VERSION_PATCH_EDColor 0
 
 // venmo-ios-colors
 #define COCOAPODS_POD_AVAILABLE_venmo_ios_colors
