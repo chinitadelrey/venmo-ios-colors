@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'venmo-ios-colors'
-  s.version      = '0.2.0'
+  s.version      = '0.3.0'
   s.summary      = 'Venmo\'s color palette'
   s.description   = <<-DESC
                    UIColors for the Venmo app.
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Colors/*.{h,m}'
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.dependency 'EDColor', '~> 0.4.0'
+  s.dependency 'EDColor', '~> 1.0'
 end
