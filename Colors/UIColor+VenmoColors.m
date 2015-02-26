@@ -45,6 +45,21 @@
     return [UIColor colorWithHexString:@"F8F9FA"];
 }
 
++ (UIColor *)ven_valleyGrey
+{
+    return [UIColor colorWithRed:242/255.0f green:242/255.0f blue:242/255.0f alpha:1.0f];
+}
+
++ (UIColor *)ven_horseGrey
+{
+    return [UIColor colorWithRed:140/255.0f green:140/255.0f blue:140/255.0f alpha:1.0f];
+}
+
++ (UIColor *)ven_extraLightGrey
+{
+    return [UIColor colorWithRed:249/255.0f green:249/255.0f blue:249/255.0f alpha:1.0f];
+}
+
 
 #pragma mark - Blue colors
 
