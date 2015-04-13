@@ -45,6 +45,11 @@
     return [UIColor colorWithHexString:@"F8F9FA"];
 }
 
++ (UIColor *)ven_placeholderTextGreyColor
+{
+    return [UIColor colorWithHexString:@"C7CBCD"];
+}
+
 + (UIColor *)ven_valleyGrey
 {
     return [UIColor colorWithHexString:@"F2F2F2"];
@@ -88,6 +93,11 @@
     return [UIColor colorWithHexString:@"3D94CE"];
 }
 
++ (UIColor *)ven_linkSelectedBlueColor
+{
+    return [UIColor colorWithHexString:@"355CC2"];
+}
+
 
 #pragma mark - Drawer colors
 
@@ -129,14 +139,9 @@
     return [UIColor colorWithHexString:@"E91A1A"];
 }
 
-+ (UIColor *)ven_placeholderTextGreyColor
++ (UIColor *)ven_orangeColor
 {
-    return [UIColor colorWithHexString:@"C7CBCD"];
-}
-
-+ (UIColor *)ven_linkSelectedBlueColor
-{
-    return [UIColor colorWithHexString:@"355CC2"];
+    return [UIColor colorWithHexString:@"FF8000"];
 }
 
 @end

@@ -41,5 +41,6 @@
 
 + (UIColor *)ven_greenColor;
 + (UIColor *)ven_redColor;
++ (UIColor *)ven_orangeColor;
 
 @end
