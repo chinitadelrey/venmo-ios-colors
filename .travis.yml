@@ -1,6 +1,8 @@
 language: objective-c
+before_install:
+- gem install slather --no-rdoc --no-ri --no-document --quiet
+- brew uninstall xctool; brew install xctool --HEAD;
 script:
 - xctool -workspace VenmoColorsSample.xcworkspace -scheme VenmoColorsSample -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 - xctool test -workspace VenmoColorsSample.xcworkspace -scheme VenmoColorsSampleTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
-before_install:
-- brew uninstall xctool; brew install xctool --HEAD;
+after_success: slather

@@ -1,0 +1,28 @@
+{
+  "name": "venmo-ios-colors",
+  "version": "0.6.0",
+  "summary": "Venmo's color palette",
+  "description": "                   UIColors for the Venmo app.\n",
+  "homepage": "https://www.github.com/venmo/venmo-ios-colors",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Venmo": "ios@venmo.com"
+  },
+  "source": {
+    "git": "https://github.com/venmo/venmo-ios-colors.git",
+    "tag": "v0.6.0"
+  },
+  "source_files": "Colors/*.{h,m}",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "requires_arc": true,
+  "dependencies": {
+    "EDColor": [
+      "~> 1.0"
+    ]
+  }
+}
