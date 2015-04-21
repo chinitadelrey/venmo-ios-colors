@@ -1,5 +1,5 @@
 # Venmo iOS Colors
-[![Build Status](https://travis-ci.org/venmo/venmo-ios-colors.svg?branch=master)](https://travis-ci.org/venmo/venmo-ios-colors)
+[![Build Status](https://travis-ci.org/venmo/venmo-ios-colors.svg?branch=master)](https://travis-ci.org/venmo/venmo-ios-colors) [![Coverage Status](https://coveralls.io/repos/venmo/venmo-ios-colors/badge.svg?branch=master)](https://coveralls.io/r/venmo/venmo-ios-colors?branch=master)
 
 UIColors used in the Venmo app.
 
